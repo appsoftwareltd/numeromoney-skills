@@ -1,0 +1,12 @@
+{
+  "name": "numeromoney",
+  "description": "Skill for agents that work with the NumeroMoney User API: bank Transactions, spending, Categories, Categorisation Rules and statement imports.",
+  "version": "1.0.0",
+  "author": {
+    "name": "App Software Ltd"
+  },
+  "homepage": "https://www.numeromoney.com/docs/user-api",
+  "repository": "https://github.com/appsoftwareltd/numeromoney-skills",
+  "license": "MIT",
+  "keywords": ["numeromoney", "banking", "budgeting", "personal-finance"]
+}

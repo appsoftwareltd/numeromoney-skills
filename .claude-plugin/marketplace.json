@@ -1,0 +1,15 @@
+{
+  "name": "numeromoney",
+  "description": "NumeroMoney skills for AI agents.",
+  "owner": {
+    "name": "App Software Ltd"
+  },
+  "plugins": [
+    {
+      "name": "numeromoney",
+      "description": "Skill for agents that work with the NumeroMoney User API: bank Transactions, spending, Categories, Categorisation Rules and statement imports.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
