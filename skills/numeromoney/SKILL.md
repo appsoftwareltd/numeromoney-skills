@@ -13,7 +13,9 @@ The live reference is https://www.numeromoney.com/docs/user-api.md. Fetch it bef
 
 ## Token
 
-- The person creates a token in NumeroMoney under **Settings** > **User API Access Tokens**, with the Access Level **Read** or **Read and write**. The API needs Pro access, a subscription or the trial.
+- The User API is a Pro feature: the person needs a NumeroMoney subscription or the 30 day trial. Without it every call gets `403 pro_required`. Tell the person, and their tokens work again as soon as Pro access returns.
+- A token reaches only the Bank Accounts the person owns. Bank Accounts that others share with them are not in the API.
+- The person creates a token in NumeroMoney under **Settings** > **User API Access Tokens**, with the Access Level **Read** or **Read and write**.
 - Read it from the environment variable `NUMEROMONEY_TOKEN`. If it is missing, ask the person to set it, for example in an ignored `.env` file. Keep the token out of chat, files, commits, URLs and command output.
 - `403 write_access_required` means the token is Read only. Tell the person; a token's Access Level never changes, so they create a new one.
 

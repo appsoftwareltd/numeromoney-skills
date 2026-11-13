@@ -6,7 +6,8 @@ The skill sends the agent to the live API reference for endpoint details, and ad
 
 ## Before you start
 
-1. In NumeroMoney, go to **Settings** > **User API Access Tokens** and create a token. Choose **Read** for reports, or **Read and write** to let the agent import and categorise. The User API needs Pro access.
+1. Check you have Pro access. The User API is a Pro feature, available with a subscription or during the 30 day trial.
+1. In NumeroMoney, go to **Settings** > **User API Access Tokens** and create a token. Choose **Read** for reports, or **Read and write** to let the agent import and categorise.
 1. Put the token in the environment the agent runs in, as `NUMEROMONEY_TOKEN`. A `.env` file that git ignores works well:
 
    ```bash
